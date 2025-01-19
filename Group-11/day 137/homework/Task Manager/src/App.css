@@ -1,0 +1,73 @@
+main {
+    width: 37%;
+    margin: 20px 0px 20px 0px;
+    border: 1px dashed black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #01245b;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 70%;
+    height: 50px;
+    padding-left: 25px;
+    background-color: #edeef0;
+    border: none;
+    border-radius: 35px;
+    /* font-size: 20px; */
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    width: 20%;
+    height: 50px;
+    border-radius: 35px;
+    background-color: #ff5845;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.task-btn {
+    width: 15%;
+    height: 30px;
+    font-size: 12px;
+}
+
+#tasks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.task {
+    width: 100%;
+    padding: 7px 10px 7px 10px;
+    font-size: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.12s;
+}
+.task:hover {
+    background-color: #edeef0;
+}
